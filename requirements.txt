@@ -1,0 +1,20 @@
+# EduPulse — requirements.txt
+# Install: pip install -r requirements.txt
+# Termux:  pip install -r requirements.txt --break-system-packages
+
+# Telegram bot framework
+python-telegram-bot==20.7
+
+# Gemini API
+google-generativeai==0.4.1
+
+# Web server (webhook mode)
+flask==3.0.2
+
+# Environment variable loading
+python-dotenv==1.0.1
+
+# ── Notes ─────────────────────────────────────────────────
+# sqlite3    : built into Python standard library, no install needed
+# asyncio    : built into Python standard library, no install needed
+# gunicorn   : add if Render requires WSGI server (check Procfile)
